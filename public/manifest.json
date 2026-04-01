@@ -1,0 +1,24 @@
+{
+  "name": "Oblion — Beyond Doubt",
+  "short_name": "Oblion",
+  "description": "Blockchain-verified secure deletion with legally defensible certificates",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090c16",
+  "theme_color": "#1db4c8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

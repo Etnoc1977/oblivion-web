@@ -14,7 +14,6 @@ export default function HomePage() {
       return;
     }
     setReady(true);
-
     const onScroll = () => setScrolled(window.scrollY > 40);
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
@@ -40,7 +39,7 @@ export default function HomePage() {
             <div className="w-9 h-9 bg-gradient-to-br from-[#1e3a8a] to-[#1db4c8] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">O</span>
             </div>
-            <span className="text-white font-bold text-lg tracking-tight">OBLIVION</span>
+            <span className="text-white font-bold text-lg tracking-tight">OBLION</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm">
             <a href="#how" className="text-gray-400 hover:text-[#1db4c8] transition-colors">How it works</a>
@@ -66,7 +65,7 @@ export default function HomePage() {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-6">
             Prove you deleted it.
             <br />
-            <span className="text-[#1db4c8]">Forever.</span>
+            <span className="text-[#1db4c8]">Beyond doubt.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
             Blockchain-verified secure deletion certificates for enterprises
@@ -108,13 +107,13 @@ export default function HomePage() {
             </p>
             <p className="text-gray-400 leading-relaxed">
               A digitally signed certificate can be forged. A blockchain record cannot.
-              Oblivion creates an immutable, timestamped proof of every deletion
+              Oblion creates an immutable, timestamped proof of every deletion
               that no one — not even us — can alter or backdate.
             </p>
           </div>
           <div className="bg-[#0d101c] border border-[#1e3a8a]/30 rounded-2xl p-8 font-mono text-sm">
             <div className="text-gray-500 mb-3">// On-chain record</div>
-            <div className="text-[#1db4c8]">OBLIVION_CERT<span className="text-gray-600">|</span></div>
+            <div className="text-[#1db4c8]">OBLION_CERT<span className="text-gray-600">|</span></div>
             <div className="text-gray-400">v2.2<span className="text-gray-600">|</span>DELETION_CERTIFICATE</div>
             <div className="text-gray-400">files:<span className="text-white">3</span><span className="text-gray-600">|</span>size:<span className="text-white">2.4MB</span></div>
             <div className="text-gray-400">method:<span className="text-white">DoD 5220.22-M</span></div>
@@ -262,7 +261,7 @@ export default function HomePage() {
                 <li className="flex items-center gap-2"><span className="text-[#1db4c8]">✓</span> QTSP integration</li>
                 <li className="flex items-center gap-2"><span className="text-[#1db4c8]">✓</span> Custom SLA</li>
               </ul>
-              <a href="mailto:info@oblivion.studio" className="block text-center border border-[#1e3a8a] text-gray-300 px-6 py-3 rounded-lg font-semibold hover:border-[#1db4c8] hover:text-[#1db4c8] transition-all">Contact sales</a>
+              <a href="mailto:info@oblion.eu" className="block text-center border border-[#1e3a8a] text-gray-300 px-6 py-3 rounded-lg font-semibold hover:border-[#1db4c8] hover:text-[#1db4c8] transition-all">Contact sales</a>
             </div>
           </div>
         </div>
@@ -288,9 +287,9 @@ export default function HomePage() {
                 <div className="w-8 h-8 bg-gradient-to-br from-[#1e3a8a] to-[#1db4c8] rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xs">O</span>
                 </div>
-                <span className="text-white font-bold">OBLIVION</span>
+                <span className="text-white font-bold">OBLION</span>
               </div>
-              <p className="text-gray-500 text-sm leading-relaxed">Blockchain-verified secure deletion for enterprises.</p>
+              <p className="text-gray-500 text-sm leading-relaxed">Beyond doubt.</p>
             </div>
             <div>
               <h4 className="text-white font-semibold text-sm mb-3">Product</h4>
@@ -314,14 +313,14 @@ export default function HomePage() {
               <h4 className="text-white font-semibold text-sm mb-3">Company</h4>
               <div className="space-y-2 text-sm">
                 <span className="block text-gray-500">Studio Conte S.r.l.</span>
-                <a href="mailto:info@oblivion.studio" className="block text-gray-500 hover:text-[#1db4c8] transition-colors">info@oblivion.studio</a>
+                <a href="mailto:info@oblion.eu" className="block text-gray-500 hover:text-[#1db4c8] transition-colors">info@oblion.eu</a>
                 <span className="block text-gray-500">Milan, Italy</span>
               </div>
             </div>
           </div>
           <div className="border-t border-[#1e3a8a]/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-600 text-xs">© 2026 Studio Conte S.r.l. All rights reserved.</p>
-            <p className="text-gray-600 text-xs">Blockchain-verified data destruction</p>
+            <p className="text-gray-600 text-xs">Oblion — Beyond doubt</p>
           </div>
         </div>
       </footer>
